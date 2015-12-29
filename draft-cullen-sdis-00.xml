@@ -10,7 +10,7 @@
 <?rfc strict="yes" ?> <!-- give errors regarding ID-nits and DTD validation -->
 <!-- control the table of contents (ToC): -->
 <?rfc toc="yes"?> <!-- generate a ToC -->
-<?rfc tocdepth="2"?> <!-- the number of levels of subsections in ToC. default: 3 -->
+<?rfc tocdepth="3"?> <!-- the number of levels of subsections in ToC. default: 3 -->
 <!-- control references: -->
 <?rfc symrefs="yes"?> <!-- use symbolic references tags, i.e, [RFC2119] instead of [1] -->
 <?rfc sortrefs="yes" ?> <!-- sort the reference entries alphabetically -->
@@ -41,7 +41,7 @@
 <!-- <keyword/> -->
     <abstract>
       <t>
-The Semantic Data Interface Service (SDIS) is a protocol defining a unified method for Internet services to exchange machine-readable and human-readable data either publicly or privately to other services or user agents.  SDIS uses an input/output model of data translation between predefined formats in order to allow consistent communication between services or user agents without requiring each service or user agent to interpret the specialized APIs of others.  For example, this protocol could be employed by services or user agents to create "chains" of interfaces, allowing complex operations to be performed by connecting an output of a service to an input of another, an output of the second service to an input of a third, and so on.  The protocol could also be used in conjunction with, for example, a Bluetooth Low Energy - based protocol to refer mobile devices to SDIS interfaces depending on location in order to provide content for augmented reality systems.  </t>
+The Semantic Data Interface Service (SDIS) is a protocol defining a unified method for Internet services to exchange machine-readable and human-readable data either publicly or privately to other services or user agents.  SDIS uses an input/output model of data translation between predefined formats in order to allow consistent communication between services or user agents without requiring each service or user agent to interpret the specialized APIs of others.  For example, this protocol could be employed by services or user agents to create "chains" of interfaces, allowing complex operations to be performed by connecting an output of a service to an input of another, an output of the second service to an input of a third, and so on.  The protocol could also be used in conjunction with, for example, a Bluetooth Low Energy-based protocol to refer mobile devices to SDIS interfaces depending on location in order to provide content for augmented reality systems.  </t>
     </abstract>
   </front>
   <middle>
@@ -58,7 +58,33 @@ The Semantic Data Interface Service (SDIS) is a protocol defining a unified meth
       <t>
         Add some text here. You will need to use these references somewhere within the text:
       </t>
-    </section>
+	</section>
+	<section title="Ideology and Terms">
+	</section>
+	<section title="Protocol Interaction over TCP">
+	  <section title="Message Format">
+	  </section>
+	  <section title="Messages">
+	    <section title="Handshake">
+	    </section>
+	    <section title="Operation Details">
+	    </section>
+	    <section title="Format Details">
+	    </section>
+      </section>
+	</section>
+	<section title="Server Tables">
+	  <section title="Operation Table">
+	  </section>
+	  <section title="Format Table">
+	  </section>
+	</section>
+	<section title="Usage Best Practices">
+	  <section title="Data Format Allocation">
+	  </section>
+	  <section title="Operation Allocation">
+	  </section>
+	</section>
     <section anchor="Acknowledgements" title="Acknowledgements">
     </section>
     <section anchor="IANA" title="IANA Considerations">
