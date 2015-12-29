@@ -103,8 +103,8 @@ Table of Contents
 
    This document is being discussed on the xyz@example.org mailing list.
 
-   Add some text here.  You will need to use these references somewhere
-   within the text:
+   Introduction here
+
 
 
 
