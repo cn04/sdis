@@ -32,7 +32,7 @@
 <!-- <uri/> -->
       </address>
     </author>
-    <date year="2015" />
+    <date year="2016" />
 <!-- <area/> -->
 <!-- <workgroup/> -->
       <keyword>semantic</keyword>
@@ -56,7 +56,7 @@ The Semantic Data Interface Service (SDIS) is a protocol defining a unified meth
         This document is being discussed on the xyz@example.org mailing list.
       </t>
       <t>
-        Introduction here
+        The architecture of the World Wide Web is primarily being used to transfer human-readable information to user agents in the form of Hypertext Markup Language (HTML) documents. HTML, and also HTTP, are designed in a way that makes transmitting arbitrary data very simple -- an HTTP message body can contain almost any data, and on a higher level webpages can contain almost any type of content. Furthermore, these web pages can have varying layout and design, sometimes with multiple representing very similar data in differing formats. Essentially, when machine-readable data needs to be transferred, HTML and HTTP fall short. REST APIs attempt to solve this problem, using HTTP requests and responses to transfer machine-readable data, but the format of the data between multiple APIs is usually not consistent, meaning that for another service or a user agent to interpret data from one API, it needs to have been specifically intended to do so. The goal of SDIS is to provide a protocol that by design can input and output arbitrary machine-readable data in specific formats that are universally understood, therefore allowing any software to interact with any SDIS service simply by requesting a list of the input and output formats it supports. This protocol will also be designed for low-latency data transfer, allowing it to be used in applications that require multiple data transactions to take place within one TCP connection.
       </t>
 	</section>
 	<section title="Ideology and Terms">
